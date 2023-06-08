@@ -1,0 +1,65 @@
+body {
+  width: 400px;
+  min-height: 150px;
+  background: rgb(120, 100, 150);
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+button {
+  background: gray;
+  border: none;
+  color: white;
+  background: rgb(120, 90, 150);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  float: right;
+  margin-left: 10px;
+}
+
+.buttonFile {
+  background: gray;
+  border: none;
+  background: rgb(150, 120, 150);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  float: left;
+}
+
+.innerDiv {
+   float: right;
+}
+
+#roll {
+  margin-top: 13px;
+  background: rgb(120, 110, 150);
+  padding: 3px;
+}
+
+#nosave {
+  background: rgb(150, 120, 150);
+  border-radius: 4px;
+  padding: 5;
+  margin-top: 5px;
+}
+
+.savefile {
+  background: rgb(150, 120, 150);
+  border-radius: 4px;
+  padding: 5;
+  margin-top: 5px;
+  align-content: stretch;
+  height: 15px;
+}
+
+.save:hover {
+  background: rgb(150, 100, 150);
+}
